@@ -1,0 +1,32 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A855F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C084FC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3F4F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="96" cy="96" r="88" fill="url(#bgGradient)" stroke="#7C3AED" stroke-width="4"/>
+  
+  <!-- Inner glow -->
+  <circle cx="96" cy="96" r="80" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  
+  <!-- Chat bubble shape -->
+  <path d="M60 80 C60 60 76 44 96 44 C116 44 132 60 132 80 L132 100 C132 120 116 136 96 136 L84 136 L76 144 L76 136 L60 136 C60 136 60 80 60 80 Z" fill="url(#iconGradient)"/>
+  
+  <!-- H letter -->
+  <path d="M80 60 L80 120 M80 90 L100 90 M100 60 L100 120" stroke="#8B5CF6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="70" cy="70" r="3" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="122" cy="70" r="3" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="70" cy="122" r="3" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="122" cy="122" r="3" fill="rgba(255,255,255,0.6)"/>
+</svg>

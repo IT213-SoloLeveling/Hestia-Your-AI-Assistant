@@ -1,0 +1,72 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#FFE4B5" stroke="#FFA500" stroke-width="8"/>
+  
+  <!-- Hair -->
+  <path d="M 180 120 Q 160 140 160 180 Q 160 220 180 240 Q 200 260 240 260 Q 280 260 300 240 Q 320 220 320 180 Q 320 140 300 120 Q 280 100 240 100 Q 200 100 180 120 Z" fill="#FF6B35"/>
+  
+  <!-- Face -->
+  <ellipse cx="240" cy="200" rx="60" ry="70" fill="#FFE4B5"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="220" cy="190" rx="12" ry="16" fill="#8B4513"/>
+  <ellipse cx="260" cy="190" rx="12" ry="16" fill="#8B4513"/>
+  <ellipse cx="218" cy="186" rx="4" ry="6" fill="white"/>
+  <ellipse cx="258" cy="186" rx="4" ry="6" fill="white"/>
+  
+  <!-- Eyelashes -->
+  <path d="M 208 180 L 212 175 M 216 178 L 220 173 M 224 180 L 228 175" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M 272 180 L 268 175 M 264 178 L 260 173 M 256 180 L 252 175" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M 230 220 Q 240 230 250 220" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Blush -->
+  <circle cx="200" cy="210" r="8" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="280" cy="210" r="8" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Cap -->
+  <ellipse cx="240" cy="130" rx="50" ry="25" fill="#2F4F4F"/>
+  <ellipse cx="240" cy="125" rx="45" ry="20" fill="#4682B4"/>
+  <circle cx="240" cy="125" r="6" fill="#FFD700"/>
+  
+  <!-- Uniform Dress -->
+  <path d="M 200 250 L 180 350 L 300 350 L 280 250 Z" fill="#98FB98"/>
+  
+  <!-- Jacket -->
+  <path d="M 190 240 L 170 320 L 310 320 L 290 240 Z" fill="#2F4F4F"/>
+  <rect x="200" y="260" width="20" height="30" fill="#2F4F4F"/>
+  <rect x="260" y="260" width="20" height="30" fill="#2F4F4F"/>
+  
+  <!-- Collar -->
+  <path d="M 220 250 L 260 250 L 255 270 L 225 270 Z" fill="white"/>
+  
+  <!-- Tie -->
+  <path d="M 240 250 L 235 270 L 245 270 Z" fill="#696969"/>
+  
+  <!-- Belt -->
+  <rect x="200" y="300" width="80" height="8" fill="#FFD700"/>
+  <circle cx="240" cy="304" r="8" fill="#FFD700"/>
+  
+  <!-- Arms -->
+  <ellipse cx="180" cy="280" rx="15" ry="25" fill="#FFE4B5"/>
+  <ellipse cx="300" cy="280" rx="15" ry="25" fill="#FFE4B5"/>
+  
+  <!-- Cuffs -->
+  <ellipse cx="180" cy="300" rx="12" ry="8" fill="white"/>
+  <ellipse cx="300" cy="300" rx="12" ry="8" fill="white"/>
+  
+  <!-- Legs -->
+  <rect x="220" y="350" width="15" height="60" fill="#FFE4B5"/>
+  <rect x="245" y="350" width="15" height="60" fill="#FFE4B5"/>
+  
+  <!-- Socks -->
+  <rect x="215" y="380" width="25" height="30" fill="#696969"/>
+  <rect x="240" y="380" width="25" height="30" fill="#696969"/>
+  <rect x="215" y="380" width="25" height="5" fill="white"/>
+  <rect x="240" y="380" width="25" height="5" fill="white"/>
+  
+  <!-- Shoes -->
+  <ellipse cx="227" cy="415" rx="12" ry="8" fill="black"/>
+  <ellipse cx="252" cy="415" rx="12" ry="8" fill="black"/>
+</svg>
